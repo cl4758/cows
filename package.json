@@ -1,0 +1,30 @@
+{
+  "name": "homework03-cl4758",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0467-001-002-spring-2022/homework03-cl4758.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0467-001-002-spring-2022/homework03-cl4758/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0467-001-002-spring-2022/homework03-cl4758#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-match": "^1.1.1",
+    "eslint": "^8.9.0",
+    "mocha": "^9.2.0",
+    "mocha-sinon": "^2.1.2",
+    "sinon": "^13.0.1"
+  }
+}
