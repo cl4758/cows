@@ -1,0 +1,44 @@
+img {
+  width:70%;
+  height:auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+
+html {
+  background-image: url("../img/background.jpg");
+  width: 100%;
+  min-height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: cursive;
+  padding: 20px;
+}
+
+a {
+  font-size: 30px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.rotate {
+  transform: rotate(-5deg); 
+  background-color: pink;
+  width: fit-content;
+}
