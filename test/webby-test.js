@@ -74,8 +74,8 @@ describe('serveStatic', function () {
 
   it('gives back a function that calls readfile using the base path and path from the request object', function () {
     const f = serveStatic('/foo/bar/baz/');
-    f(new Request('GET /qux/corge HTTP/1.1'), new Response(socket));
-    expect(fs.readFile.getCall(0).args[0]).to.equal('/foo/bar/baz/qux/corge');
+    f(new Request('GET /qux/corgi HTTP/1.1'), new Response(socket));
+    expect(fs.readFile.getCall(0).args[0]).to.equal('/foo/bar/baz/qux/corgi');
   });
 });
 
