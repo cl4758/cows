@@ -22,6 +22,8 @@ function template() {
     html += `<div><img src='/img/animal${x}.jpg'></img></div>`;
   }
 
+  html += `<a href="/"><em>&#60;Back</em></a>`;
+
   return html;
 }
 
